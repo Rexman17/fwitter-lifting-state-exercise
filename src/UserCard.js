@@ -1,6 +1,7 @@
 import React from 'react'
 
 function UserCard(props) {
+  // console.log("usercard props", props)
   return (
     <div className="card">
       <div className="content">

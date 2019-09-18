@@ -15,7 +15,6 @@ class App extends React.Component {
     })
   }
 
-
   render () {
       return (
         <DarkModeWrapper darkMode={this.state.darkMode} toggle={this.toggleDarkMode}>

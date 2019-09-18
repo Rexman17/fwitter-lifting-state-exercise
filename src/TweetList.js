@@ -2,6 +2,7 @@ import React from 'react'
 import TweetItem from './TweetItem'
 
 function TweetList(props) {
+  console.log(props, "in TweetList")
   return (
     <div className="ui segment">
       <div className="ui feed">

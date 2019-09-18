@@ -10,9 +10,9 @@ Before starting work on the deliverables below, you might find it helpful to dra
 
 Your deliverables:
 
-## 1. Toggle dark mode in the Header component
+<!-- ## 1. Toggle dark mode in the Header component
 
-Our `<Header>` component has a dark mode theme feature that can be enabled by clicking on the toggle. In order to switch the dark mode theme for the header, you'll need to toggle the `darkMode` key in state from true to false.
+Our `<Header>` component has a dark mode theme feature that can be enabled by clicking on the toggle. In order to switch the dark mode theme for the header, you'll need to toggle the `darkMode` key in state from true to false. -->
 
 ## 2. Toggle dark mode throughout the application
 
@@ -24,9 +24,9 @@ It's nice having a theme applied to the nav bar, but what if we want that theme 
 </DarkModeWrapper>
 ```
 
-HINT: You may need to change where the darkMode state is being set to get this feature to work. 
+HINT: You may need to change where the darkMode state is being set to get this feature to work.
 
-## 3. Click 'View Tweets' on the user card to view the user's tweets 
+## 3. Click 'View Tweets' on the user card to view the user's tweets
 
 We're currently only able to see the tweets for one user! Our data is being loaded in `<TweetsContainer>` in the format below. Find a way to change which user's tweets are being displayed.
 
@@ -54,6 +54,6 @@ We're currently only able to see the tweets for one user! Our data is being load
 
 ## 4. BONUS: Click the Like button to increase likes on a tweet
 
-When you click the Like button under a tweet, it should update the `favorite_count` attribute for that specific tweet. Since each user has an array of tweets associated with them, you'll need to work with updating nested state to get this feature working. 
+When you click the Like button under a tweet, it should update the `favorite_count` attribute for that specific tweet. Since each user has an array of tweets associated with them, you'll need to work with updating nested state to get this feature working.
 
 HINT: Consider using `map` to iterate over the array of tweets. Make sure to only update the tweet object that the user clicked!
